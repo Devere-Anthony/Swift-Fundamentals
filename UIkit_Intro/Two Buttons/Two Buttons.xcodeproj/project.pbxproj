@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CCF613792B2E4930001D2DA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF613782B2E4930001D2DA4 /* AppDelegate.swift */; };
-		CCF6137B2B2E4930001D2DA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF6137A2B2E4930001D2DA4 /* SceneDelegate.swift */; };
-		CCF6137D2B2E4930001D2DA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF6137C2B2E4930001D2DA4 /* ViewController.swift */; };
-		CCF613802B2E4930001D2DA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF6137E2B2E4930001D2DA4 /* Main.storyboard */; };
-		CCF613822B2E4932001D2DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF613812B2E4932001D2DA4 /* Assets.xcassets */; };
-		CCF613852B2E4932001D2DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF613832B2E4932001D2DA4 /* LaunchScreen.storyboard */; };
+		CCBEED842B2E8720008874FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBEED832B2E8720008874FC /* AppDelegate.swift */; };
+		CCBEED862B2E8720008874FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBEED852B2E8720008874FC /* SceneDelegate.swift */; };
+		CCBEED882B2E8720008874FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBEED872B2E8720008874FC /* ViewController.swift */; };
+		CCBEED8B2B2E8720008874FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBEED892B2E8720008874FC /* Main.storyboard */; };
+		CCBEED8D2B2E8722008874FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBEED8C2B2E8722008874FC /* Assets.xcassets */; };
+		CCBEED902B2E8722008874FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBEED8E2B2E8722008874FC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CCF613752B2E4930001D2DA4 /* CommonInputControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonInputControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCF613782B2E4930001D2DA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCF6137A2B2E4930001D2DA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CCF6137C2B2E4930001D2DA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CCF6137F2B2E4930001D2DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CCF613812B2E4932001D2DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CCF613842B2E4932001D2DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CCF613862B2E4932001D2DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBEED802B2E8720008874FC /* Two Buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two Buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBEED832B2E8720008874FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCBEED852B2E8720008874FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCBEED872B2E8720008874FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCBEED8A2B2E8720008874FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCBEED8C2B2E8722008874FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCBEED8F2B2E8722008874FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCBEED912B2E8722008874FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CCF613722B2E4930001D2DA4 /* Frameworks */ = {
+		CCBEED7D2B2E8720008874FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CCF6136C2B2E4930001D2DA4 = {
+		CCBEED772B2E8720008874FC = {
 			isa = PBXGroup;
 			children = (
-				CCF613772B2E4930001D2DA4 /* CommonInputControls */,
-				CCF613762B2E4930001D2DA4 /* Products */,
+				CCBEED822B2E8720008874FC /* Two Buttons */,
+				CCBEED812B2E8720008874FC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CCF613762B2E4930001D2DA4 /* Products */ = {
+		CCBEED812B2E8720008874FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCF613752B2E4930001D2DA4 /* CommonInputControls.app */,
+				CCBEED802B2E8720008874FC /* Two Buttons.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CCF613772B2E4930001D2DA4 /* CommonInputControls */ = {
+		CCBEED822B2E8720008874FC /* Two Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				CCF613782B2E4930001D2DA4 /* AppDelegate.swift */,
-				CCF6137A2B2E4930001D2DA4 /* SceneDelegate.swift */,
-				CCF6137C2B2E4930001D2DA4 /* ViewController.swift */,
-				CCF6137E2B2E4930001D2DA4 /* Main.storyboard */,
-				CCF613812B2E4932001D2DA4 /* Assets.xcassets */,
-				CCF613832B2E4932001D2DA4 /* LaunchScreen.storyboard */,
-				CCF613862B2E4932001D2DA4 /* Info.plist */,
+				CCBEED832B2E8720008874FC /* AppDelegate.swift */,
+				CCBEED852B2E8720008874FC /* SceneDelegate.swift */,
+				CCBEED872B2E8720008874FC /* ViewController.swift */,
+				CCBEED892B2E8720008874FC /* Main.storyboard */,
+				CCBEED8C2B2E8722008874FC /* Assets.xcassets */,
+				CCBEED8E2B2E8722008874FC /* LaunchScreen.storyboard */,
+				CCBEED912B2E8722008874FC /* Info.plist */,
 			);
-			path = CommonInputControls;
+			path = "Two Buttons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CCF613742B2E4930001D2DA4 /* CommonInputControls */ = {
+		CCBEED7F2B2E8720008874FC /* Two Buttons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCF613892B2E4932001D2DA4 /* Build configuration list for PBXNativeTarget "CommonInputControls" */;
+			buildConfigurationList = CCBEED942B2E8722008874FC /* Build configuration list for PBXNativeTarget "Two Buttons" */;
 			buildPhases = (
-				CCF613712B2E4930001D2DA4 /* Sources */,
-				CCF613722B2E4930001D2DA4 /* Frameworks */,
-				CCF613732B2E4930001D2DA4 /* Resources */,
+				CCBEED7C2B2E8720008874FC /* Sources */,
+				CCBEED7D2B2E8720008874FC /* Frameworks */,
+				CCBEED7E2B2E8720008874FC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CommonInputControls;
-			productName = CommonInputControls;
-			productReference = CCF613752B2E4930001D2DA4 /* CommonInputControls.app */;
+			name = "Two Buttons";
+			productName = "Two Buttons";
+			productReference = CCBEED802B2E8720008874FC /* Two Buttons.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CCF6136D2B2E4930001D2DA4 /* Project object */ = {
+		CCBEED782B2E8720008874FC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
-					CCF613742B2E4930001D2DA4 = {
+					CCBEED7F2B2E8720008874FC = {
 						CreatedOnToolsVersion = 15.1;
 					};
 				};
 			};
-			buildConfigurationList = CCF613702B2E4930001D2DA4 /* Build configuration list for PBXProject "CommonInputControls" */;
+			buildConfigurationList = CCBEED7B2B2E8720008874FC /* Build configuration list for PBXProject "Two Buttons" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = CCF6136C2B2E4930001D2DA4;
-			productRefGroup = CCF613762B2E4930001D2DA4 /* Products */;
+			mainGroup = CCBEED772B2E8720008874FC;
+			productRefGroup = CCBEED812B2E8720008874FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CCF613742B2E4930001D2DA4 /* CommonInputControls */,
+				CCBEED7F2B2E8720008874FC /* Two Buttons */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CCF613732B2E4930001D2DA4 /* Resources */ = {
+		CCBEED7E2B2E8720008874FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCF613852B2E4932001D2DA4 /* LaunchScreen.storyboard in Resources */,
-				CCF613822B2E4932001D2DA4 /* Assets.xcassets in Resources */,
-				CCF613802B2E4930001D2DA4 /* Main.storyboard in Resources */,
+				CCBEED902B2E8722008874FC /* LaunchScreen.storyboard in Resources */,
+				CCBEED8D2B2E8722008874FC /* Assets.xcassets in Resources */,
+				CCBEED8B2B2E8720008874FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CCF613712B2E4930001D2DA4 /* Sources */ = {
+		CCBEED7C2B2E8720008874FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCF6137D2B2E4930001D2DA4 /* ViewController.swift in Sources */,
-				CCF613792B2E4930001D2DA4 /* AppDelegate.swift in Sources */,
-				CCF6137B2B2E4930001D2DA4 /* SceneDelegate.swift in Sources */,
+				CCBEED882B2E8720008874FC /* ViewController.swift in Sources */,
+				CCBEED842B2E8720008874FC /* AppDelegate.swift in Sources */,
+				CCBEED862B2E8720008874FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CCF6137E2B2E4930001D2DA4 /* Main.storyboard */ = {
+		CCBEED892B2E8720008874FC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CCF6137F2B2E4930001D2DA4 /* Base */,
+				CCBEED8A2B2E8720008874FC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CCF613832B2E4932001D2DA4 /* LaunchScreen.storyboard */ = {
+		CCBEED8E2B2E8722008874FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CCF613842B2E4932001D2DA4 /* Base */,
+				CCBEED8F2B2E8722008874FC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CCF613872B2E4932001D2DA4 /* Debug */ = {
+		CCBEED922B2E8722008874FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +229,7 @@
 			};
 			name = Debug;
 		};
-		CCF613882B2E4932001D2DA4 /* Release */ = {
+		CCBEED932B2E8722008874FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +285,7 @@
 			};
 			name = Release;
 		};
-		CCF6138A2B2E4932001D2DA4 /* Debug */ = {
+		CCBEED952B2E8722008874FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -294,7 +294,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZBUXG7MTFC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CommonInputControls/Info.plist;
+				INFOPLIST_FILE = "Two Buttons/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -305,7 +305,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = devere.CommonInputControls;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Two-Buttons";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,7 +313,7 @@
 			};
 			name = Debug;
 		};
-		CCF6138B2B2E4932001D2DA4 /* Release */ = {
+		CCBEED962B2E8722008874FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -322,7 +322,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZBUXG7MTFC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CommonInputControls/Info.plist;
+				INFOPLIST_FILE = "Two Buttons/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -333,7 +333,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = devere.CommonInputControls;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Two-Buttons";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,25 +344,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CCF613702B2E4930001D2DA4 /* Build configuration list for PBXProject "CommonInputControls" */ = {
+		CCBEED7B2B2E8720008874FC /* Build configuration list for PBXProject "Two Buttons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CCF613872B2E4932001D2DA4 /* Debug */,
-				CCF613882B2E4932001D2DA4 /* Release */,
+				CCBEED922B2E8722008874FC /* Debug */,
+				CCBEED932B2E8722008874FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCF613892B2E4932001D2DA4 /* Build configuration list for PBXNativeTarget "CommonInputControls" */ = {
+		CCBEED942B2E8722008874FC /* Build configuration list for PBXNativeTarget "Two Buttons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CCF6138A2B2E4932001D2DA4 /* Debug */,
-				CCF6138B2B2E4932001D2DA4 /* Release */,
+				CCBEED952B2E8722008874FC /* Debug */,
+				CCBEED962B2E8722008874FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CCF6136D2B2E4930001D2DA4 /* Project object */;
+	rootObject = CCBEED782B2E8720008874FC /* Project object */;
 }
