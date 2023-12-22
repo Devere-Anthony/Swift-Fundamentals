@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oYX-wG-z5w">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Me n Stell-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me n stell" translatesAutoresizingMaskIntoConstraints="NO" id="kaW-Ht-fdY">
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kaW-Ht-fdY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-59" id="F4R-H0-bzP"/>
+                            <constraint firstItem="kaW-Ht-fdY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UFC-I1-qSC"/>
+                            <constraint firstItem="kaW-Ht-fdY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="e3C-Zg-koL"/>
+                            <constraint firstItem="kaW-Ht-fdY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oZ0-Gx-Pyk"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Me n Stell" image="face.smiling.inverse" catalog="system" id="Tc7-M8-uoT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1021.3953488372093" y="4.5064377682403434"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="TvG-f9-Rb9">
+            <objects>
+                <viewController id="sqa-Lg-W4l" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dh4-wh-Oda">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="family" translatesAutoresizingMaskIntoConstraints="NO" id="Ejb-2b-gCu">
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lKJ-2q-bhC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ejb-2b-gCu" firstAttribute="leading" secondItem="lKJ-2q-bhC" secondAttribute="leading" id="Wwk-sy-BIM"/>
+                            <constraint firstItem="Ejb-2b-gCu" firstAttribute="top" secondItem="Dh4-wh-Oda" secondAttribute="topMargin" constant="-59" id="Xy8-i3-JrE"/>
+                            <constraint firstItem="Ejb-2b-gCu" firstAttribute="centerY" secondItem="Dh4-wh-Oda" secondAttribute="centerY" id="lVk-eR-vMu"/>
+                            <constraint firstItem="Ejb-2b-gCu" firstAttribute="centerX" secondItem="Dh4-wh-Oda" secondAttribute="centerX" id="qR7-mE-mxO"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" image="figure.2.and.child.holdinghands" catalog="system" id="arj-Ia-GEm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JIh-50-zRy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1705.1162790697674" y="4.5064377682403434"/>
+        </scene>
+        <!--Hobbies -->
+        <scene sceneID="i2t-WN-LfC">
+            <objects>
+                <viewController id="fr3-aW-bHD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="10g-sL-Fwb">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="Byi-p3-NYf">
+                                <rect key="frame" x="0.0" y="-11" width="430" height="943"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="a7U-BX-FMd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="a7U-BX-FMd" firstAttribute="bottom" secondItem="Byi-p3-NYf" secondAttribute="bottom" constant="-83" id="F4b-gX-fjD"/>
+                            <constraint firstItem="Byi-p3-NYf" firstAttribute="leading" secondItem="a7U-BX-FMd" secondAttribute="leading" id="ZvF-Ol-LVi"/>
+                            <constraint firstItem="Byi-p3-NYf" firstAttribute="top" secondItem="a7U-BX-FMd" secondAttribute="top" constant="-70" id="ciO-jk-CMS"/>
+                            <constraint firstItem="a7U-BX-FMd" firstAttribute="trailing" secondItem="Byi-p3-NYf" secondAttribute="trailing" id="fZO-dB-z7n"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies " image="cup.and.saucer.fill" catalog="system" id="1vq-WR-zIN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ctw-hi-fRG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2386.046511627907" y="4.5064377682403434"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="CEa-gi-jB9">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="oYX-wG-z5w" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BkO-xu-KtH">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="hFR-oA-SYL"/>
+                        <segue destination="sqa-Lg-W4l" kind="relationship" relationship="viewControllers" id="Igo-hG-OLK"/>
+                        <segue destination="fr3-aW-bHD" kind="relationship" relationship="viewControllers" id="QZJ-0S-i1D"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FZQ-7O-p6W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1705" y="-718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coffee" width="1086" height="724"/>
+        <image name="cup.and.saucer.fill" catalog="system" width="128" height="91"/>
+        <image name="face.smiling.inverse" catalog="system" width="128" height="123"/>
+        <image name="family" width="1083" height="726"/>
+        <image name="figure.2.and.child.holdinghands" catalog="system" width="128" height="93"/>
+        <image name="me n stell" width="718" height="936"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

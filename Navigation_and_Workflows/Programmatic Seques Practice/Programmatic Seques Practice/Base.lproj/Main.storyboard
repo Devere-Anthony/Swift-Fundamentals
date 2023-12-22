@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="agY-dV-pre">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Purple-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Purple" id="BYZ-38-t0r" customClass="ViewController" customModule="Programmatic_Seques_Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iUl-b3-5rZ">
+                                <rect key="frame" x="190.66666666666666" y="450.33333333333331" width="51" height="31.333333333333314"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Segue On/Off" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUl-lN-Lrc">
+                                <rect key="frame" x="163" y="489" width="104" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="TEI-yZ-Gwe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3t-UY-cFT">
+                                <rect key="frame" x="20" y="402" width="71" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <color key="tintColor" systemColor="systemTealColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Indigo"/>
+                                <connections>
+                                    <action selector="indigoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EHX-GL-GYa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYF-ZA-1bR">
+                                <rect key="frame" x="355" y="402" width="55" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Teal"/>
+                                <connections>
+                                    <action selector="tealSegue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oas-KS-mgl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <constraints>
+                            <constraint firstItem="iUl-lN-Lrc" firstAttribute="top" secondItem="iUl-b3-5rZ" secondAttribute="bottom" constant="7.3333333333333144" id="6Z7-sT-RkR"/>
+                            <constraint firstItem="iUl-b3-5rZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Kt6-6q-4rs"/>
+                            <constraint firstItem="iUl-b3-5rZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fAj-KE-Z9S"/>
+                            <constraint firstItem="iUl-lN-Lrc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="njW-am-aBD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iUl-lN-Lrc" secondAttribute="bottom" constant="388" id="vjK-Dr-aMR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Purple" id="vKp-W7-prg"/>
+                    <connections>
+                        <outlet property="segueSwitch" destination="iUl-b3-5rZ" id="xZn-HL-igt"/>
+                        <segue destination="eYi-Qm-H30" kind="show" identifier="Indigo" id="hpX-C6-dJ4"/>
+                        <segue destination="oR0-fC-1gM" kind="show" identifier="Teal" id="v1o-eg-fRQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1035.3488372093022" y="4.5064377682403434"/>
+        </scene>
+        <!--Teal-->
+        <scene sceneID="Xfw-tM-Ypj">
+            <objects>
+                <viewController title="Teal" id="oR0-fC-1gM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t1A-pb-cFY">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="fqu-0w-TU0"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Teal" largeTitleDisplayMode="never" id="I4J-O8-ifT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5vh-S3-rHq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1881" y="380"/>
+        </scene>
+        <!--Indigo-->
+        <scene sceneID="Kao-q4-oAq">
+            <objects>
+                <viewController title="Indigo" id="eYi-Qm-H30" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VsP-2P-2Gr">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="o22-9N-UpY"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title=" Indigo" largeTitleDisplayMode="never" id="rJ6-Zm-RqC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hc5-ia-NvI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1882" y="-278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4Zj-T3-VKg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="agY-dV-pre" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="zI9-hA-ua2">
+                        <rect key="frame" x="0.0" y="59" width="430" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="kxh-pa-6TT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vp6-X8-PWK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.74418604651163" y="4.5064377682403434"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
