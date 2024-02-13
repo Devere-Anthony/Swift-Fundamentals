@@ -46,7 +46,6 @@
 		CC3D2F042B34EFFC0093FE11 = {
 			isa = PBXGroup;
 			children = (
-				CC3D2F282B3505EF0093FE11 /* Question.swift */,
 				CC3D2F0F2B34EFFC0093FE11 /* PersonalityQuiz */,
 				CC3D2F0E2B34EFFC0093FE11 /* Products */,
 			);
@@ -63,17 +62,35 @@
 		CC3D2F0F2B34EFFC0093FE11 /* PersonalityQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				CC8246092B390361009F6C5A /* Models */,
 				CC3D2F102B34EFFC0093FE11 /* AppDelegate.swift */,
 				CC3D2F122B34EFFC0093FE11 /* SceneDelegate.swift */,
-				CC3D2F142B34EFFC0093FE11 /* IntroductionViewController.swift */,
-				CC3D2F242B34FAD60093FE11 /* QuestionsViewController.swift */,
-				CC3D2F262B34FADE0093FE11 /* ResultsViewController.swift */,
+				CC8246082B39033D009F6C5A /* View Controllers */,
 				CC3D2F162B34EFFC0093FE11 /* Main.storyboard */,
 				CC3D2F192B34EFFD0093FE11 /* Assets.xcassets */,
 				CC3D2F1B2B34EFFD0093FE11 /* LaunchScreen.storyboard */,
 				CC3D2F1E2B34EFFD0093FE11 /* Info.plist */,
 			);
 			path = PersonalityQuiz;
+			sourceTree = "<group>";
+		};
+		CC8246082B39033D009F6C5A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D2F142B34EFFC0093FE11 /* IntroductionViewController.swift */,
+				CC3D2F242B34FAD60093FE11 /* QuestionsViewController.swift */,
+				CC3D2F262B34FADE0093FE11 /* ResultsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CC8246092B390361009F6C5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D2F282B3505EF0093FE11 /* Question.swift */,
+			);
+			name = Models;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
